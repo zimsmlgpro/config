@@ -1,0 +1,19 @@
+# A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
+# If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
+"$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
+
+[manager]
+ratio = [1, 4 , 3] # Yazi Layout width manager
+show_hidden = true # Show hidden files
+linemode = "size"
+
+[preview]
+wrap = "no"
+tab_size = 2
+
+[opener]
+
+edit = [
+  { run = '$EDITOR "$@"', block = true, for = "unix" },
+  { run = "neovide %*", block = true, for = "windows" },
+]

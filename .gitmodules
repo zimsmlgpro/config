@@ -1,0 +1,12 @@
+[submodule "starship.yazi"]
+	path = yazi/plugins/starship.yazi
+	url = https://github.com/Rolv-Apneseth/starship.yazi
+	branch = main
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/justbarnt/nvim
+	branch = main
+[submodule "nushell"]
+	path = nushell
+	url = https://github.com/justbarnt/nushell-config
+	branch = main
