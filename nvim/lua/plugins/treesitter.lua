@@ -34,6 +34,9 @@ return {
         "regex",
         "nu",
         "xml",
+        "css",
+        "svelte",
+        "html",
       })
 
       -- Disable highlight for files over 5MB
